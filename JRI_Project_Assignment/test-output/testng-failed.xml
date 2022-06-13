@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testscenarios.iFramesSample">
+      <class name="com.testscenarios.TS_002">
         <methods>
-          <include name="setup"/>
-          <include name="test123"/>
+          <include name="TC_020"/>
+          <include name="takescreenshotOfEachMethod"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- com.testscenarios.iFramesSample -->
+      </class> <!-- com.testscenarios.TS_002 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

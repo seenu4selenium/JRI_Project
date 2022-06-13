@@ -1,21 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-13T21:22:39 CDT" name="Default suite" finished-at="2022-04-13T21:23:56 CDT" duration-ms="77143">
+  <suite started-at="2022-06-13T09:53:01 PDT" name="Default suite" finished-at="2022-06-13T09:58:19 PDT" duration-ms="317981">
     <groups>
     </groups>
-    <test started-at="2022-04-13T21:22:39 CDT" name="Default test" finished-at="2022-04-13T21:23:56 CDT" duration-ms="77143">
-      <class name="com.testscenarios.iFramesSample">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testscenarios.iFramesSample@4659191b]" started-at="2022-04-13T21:22:39 CDT" name="setup" finished-at="2022-04-13T21:22:45 CDT" duration-ms="5785" status="PASS">
+    <test started-at="2022-06-13T09:53:01 PDT" name="Default test" finished-at="2022-06-13T09:58:19 PDT" duration-ms="317981">
+      <class name="com.testscenarios.TS_002">
+        <test-method signature="TC_014()[pri:0, instance:com.testscenarios.TS_002@72e5a8e]" started-at="2022-06-13T09:53:01 PDT" name="TC_014" finished-at="2022-06-13T09:53:12 PDT" duration-ms="10715" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="test123()[pri:0, instance:com.testscenarios.iFramesSample@4659191b]" started-at="2022-04-13T21:22:45 CDT" name="test123" finished-at="2022-04-13T21:23:56 CDT" duration-ms="71288" status="PASS">
+        </test-method> <!-- TC_014 -->
+        <test-method is-config="true" signature="takescreenshotOfEachMethod()[pri:0, instance:com.testscenarios.TS_002@72e5a8e]" started-at="2022-06-13T09:53:12 PDT" name="takescreenshotOfEachMethod" finished-at="2022-06-13T09:53:12 PDT" duration-ms="609" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test123 -->
-      </class> <!-- com.testscenarios.iFramesSample -->
+        </test-method> <!-- takescreenshotOfEachMethod -->
+        <test-method signature="TC_015()[pri:0, instance:com.testscenarios.TS_002@72e5a8e]" started-at="2022-06-13T09:53:12 PDT" name="TC_015" finished-at="2022-06-13T09:53:22 PDT" duration-ms="9410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_015 -->
+        <test-method is-config="true" signature="takescreenshotOfEachMethod()[pri:0, instance:com.testscenarios.TS_002@72e5a8e]" started-at="2022-06-13T09:53:22 PDT" name="takescreenshotOfEachMethod" finished-at="2022-06-13T09:53:23 PDT" duration-ms="928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshotOfEachMethod -->
+        <test-method signature="TC_016()[pri:0, instance:com.testscenarios.TS_002@72e5a8e]" started-at="2022-06-13T09:53:23 PDT" name="TC_016" finished-at="2022-06-13T09:53:34 PDT" duration-ms="11294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_016 -->
+        <test-method is-config="true" signature="takescreenshotOfEachMethod()[pri:0, instance:com.testscenarios.TS_002@72e5a8e]" started-at="2022-06-13T09:53:34 PDT" name="takescreenshotOfEachMethod" finished-at="2022-06-13T09:53:34 PDT" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshotOfEachMethod -->
+        <test-method signature="TC_017()[pri:0, instance:com.testscenarios.TS_002@72e5a8e]" started-at="2022-06-13T09:53:34 PDT" name="TC_017" finished-at="2022-06-13T09:56:30 PDT" duration-ms="175713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_017 -->
+        <test-method is-config="true" signature="takescreenshotOfEachMethod()[pri:0, instance:com.testscenarios.TS_002@72e5a8e]" started-at="2022-06-13T09:56:30 PDT" name="takescreenshotOfEachMethod" finished-at="2022-06-13T09:56:30 PDT" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshotOfEachMethod -->
+        <test-method signature="TC_018()[pri:0, instance:com.testscenarios.TS_002@72e5a8e]" started-at="2022-06-13T09:56:30 PDT" name="TC_018" finished-at="2022-06-13T09:56:54 PDT" duration-ms="24012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_018 -->
+        <test-method is-config="true" signature="takescreenshotOfEachMethod()[pri:0, instance:com.testscenarios.TS_002@72e5a8e]" started-at="2022-06-13T09:56:54 PDT" name="takescreenshotOfEachMethod" finished-at="2022-06-13T09:56:55 PDT" duration-ms="453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshotOfEachMethod -->
+        <test-method signature="TC_019()[pri:0, instance:com.testscenarios.TS_002@72e5a8e]" started-at="2022-06-13T09:56:55 PDT" name="TC_019" finished-at="2022-06-13T09:57:22 PDT" duration-ms="27051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_019 -->
+        <test-method is-config="true" signature="takescreenshotOfEachMethod()[pri:0, instance:com.testscenarios.TS_002@72e5a8e]" started-at="2022-06-13T09:57:22 PDT" name="takescreenshotOfEachMethod" finished-at="2022-06-13T09:57:22 PDT" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshotOfEachMethod -->
+        <test-method signature="TC_020()[pri:0, instance:com.testscenarios.TS_002@72e5a8e]" started-at="2022-06-13T09:57:22 PDT" name="TC_020" finished-at="2022-06-13T09:57:34 PDT" duration-ms="12072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_020 -->
+        <test-method is-config="true" signature="takescreenshotOfEachMethod()[pri:0, instance:com.testscenarios.TS_002@72e5a8e]" started-at="2022-06-13T09:57:34 PDT" name="takescreenshotOfEachMethod" finished-at="2022-06-13T09:57:35 PDT" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshotOfEachMethod -->
+        <test-method signature="TC_021()[pri:0, instance:com.testscenarios.TS_002@72e5a8e]" started-at="2022-06-13T09:57:35 PDT" name="TC_021" finished-at="2022-06-13T09:57:47 PDT" duration-ms="12196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_021 -->
+        <test-method is-config="true" signature="takescreenshotOfEachMethod()[pri:0, instance:com.testscenarios.TS_002@72e5a8e]" started-at="2022-06-13T09:57:47 PDT" name="takescreenshotOfEachMethod" finished-at="2022-06-13T09:57:47 PDT" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshotOfEachMethod -->
+        <test-method signature="TC_022()[pri:0, instance:com.testscenarios.TS_002@72e5a8e]" started-at="2022-06-13T09:57:47 PDT" name="TC_022" finished-at="2022-06-13T09:58:03 PDT" duration-ms="15292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_022 -->
+        <test-method is-config="true" signature="takescreenshotOfEachMethod()[pri:0, instance:com.testscenarios.TS_002@72e5a8e]" started-at="2022-06-13T09:58:03 PDT" name="takescreenshotOfEachMethod" finished-at="2022-06-13T09:58:03 PDT" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshotOfEachMethod -->
+        <test-method signature="TC_023()[pri:0, instance:com.testscenarios.TS_002@72e5a8e]" started-at="2022-06-13T09:58:03 PDT" name="TC_023" finished-at="2022-06-13T09:58:18 PDT" duration-ms="14844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_023 -->
+        <test-method is-config="true" signature="takescreenshotOfEachMethod()[pri:0, instance:com.testscenarios.TS_002@72e5a8e]" started-at="2022-06-13T09:58:18 PDT" name="takescreenshotOfEachMethod" finished-at="2022-06-13T09:58:19 PDT" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshotOfEachMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.testscenarios.TS_002@72e5a8e]" started-at="2022-06-13T09:58:19 PDT" name="afterClass" finished-at="2022-06-13T09:58:19 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.testscenarios.TS_002 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

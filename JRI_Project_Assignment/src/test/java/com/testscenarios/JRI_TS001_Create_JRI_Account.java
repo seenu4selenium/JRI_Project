@@ -17,12 +17,13 @@ public class JRI_TS001_Create_JRI_Account extends CommonFunctions {
 
 	// classname refName = new classname();
 	Locators loc = new Locators();
-
+String ClassName = "JRI_TS001_Create_JRI_Account";
 	// Invoke the JRI Home page
 	@Test(description = "Invoke the JRI Home page")
 	public void TC_001() {
 		openChromeBrowser();
 		driver.get("https://www.justrechargeit.com/");
+		clickByAnyLocator(loc.HomePage_CreateNewAccount_Link);
 	}
 
 	@Test
@@ -87,7 +88,7 @@ public class JRI_TS001_Create_JRI_Account extends CommonFunctions {
 	@AfterMethod
 	public void takescreenshotOfEachMethod() throws Exception {
 		// Here type class name as screenshot file name
-		takescreenshotWithTimeStamp("ClassName");
+		takescreenshotWithTimeStamp(ClassName);
 		driver.quit();
 	}
 

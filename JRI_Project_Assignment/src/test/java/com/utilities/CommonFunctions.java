@@ -126,7 +126,7 @@ public class CommonFunctions {
 		File myscreenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		// move the screenshot to specific folder above path
 		FileHandler.copy(myscreenshot,
-				new File("C:\\Users\\nalla\\git\\5AMbatchFW\\HybridFramework_5amIST\\screeenshots\\" + nameOfTheFile
+				new File("C:\\Users\\hardy\\Downloads\\QA_Analyst\\Screenshots" + nameOfTheFile
 						+ currentTimeStamp() + ".PNG"));
 	}
 
