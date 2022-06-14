@@ -28,8 +28,17 @@ public class Locators {
 		public final By CreateNewAccountPage_Password_Editbox = By.id("signup_password");
 		
 		public final By CreateNewAccountPage_Terms_ErroeMSG = By.id("tdcondition");
-
-		
+//Jri locators
+		 public final By jriCreatAccount_Name_Editbox = By.name("signup_name");
+		 public final By jriCreatAccount_Mobile_Editbox = By.name("signup_mobileno");
+		 public final By jriCreatAccount_Email_Editbox = By.name("signup_email");
+		 public final By jriCreatAccount_Password_Editbox = By.name("signup_password");
+		 //public final By jriCreatAccount_checkbox_Button = By.name("checkbox");
+		 //public final By jri_singin_Link = By.id("jriTop_signin9");
+		public final By jriSignin_Email_Editbox = By.name("txtUserName");
+		 public final By jriSignin_Password_Editbox = By.name("txtPasswd");
+		 //public final By jriSignin_Login_Button = By.name("login");
+		 //public final By jriForgot_Email_Editbox = By.name("forgotpass$txtEmailId");
 		
 
 }
